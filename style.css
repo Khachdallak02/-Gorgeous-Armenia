@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Arvo';
+    src: url(fonts/Arvo-Bold.ttf);
+}
+@font-face {
+    font-family: 'ArvoReg';
+    src: url(fonts/Arvo-Regular.ttf);
+}
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+    color:rgb(123, 39, 8);
+}
+
+#map {
+    height: 60vh;
+}
+
+#div {
+    text-align: center;
+}
+
+h1{
+    font-family: 'Arvo';
+}
+
+p{
+    font-family: 'ArvoReg';
+}
